@@ -1,0 +1,9 @@
+{
+    "name": "charlotte/portfolio",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}

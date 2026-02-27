@@ -1,0 +1,9 @@
+services:
+  portfolio:
+    build: 
+      context: .
+      dockerfile: config/Dockerfile
+    ports:
+      - "${APACHE_PORTS}:80"
+    volumes:
+      - .:/var/www/html
