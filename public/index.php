@@ -1,4 +1,12 @@
 <?php
-require_once dirname(__DIR__) . '/vendor/autoload.php';
+ob_start();
+require_once realpath(__DIR__ . '/../vendor/autoload.php');
 
-echo "Succès ! L'autoloader est chargé.";
+// const for root path
+define("ROOT_PATH", dirname(__DIR__));
+
+use App\Controller\Router;
+$router = new Router();
+$router->router();
+
+ob_end_flush();
