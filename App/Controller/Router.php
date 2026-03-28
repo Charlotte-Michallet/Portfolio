@@ -8,7 +8,7 @@ class Router
     {
         try {
             $this->meta = require_once ROOT_PATH . "/config/meta.php";
-            $meta       = $this->meta;
+            $meta = $this->meta;
 
             // routage for redirecting pages
             if (isset($_GET["controller"])) {
@@ -18,6 +18,11 @@ class Router
                     case 'pages':
                         $pageRouter = new PageController();
                         $pageRouter->route($meta);
+                        break;
+
+                    case 'projects':
+                        $projectsRouter = new ProjectsController();
+                        $projectsRouter->route($meta);
                         break;
 
                     default:
@@ -43,12 +48,12 @@ class Router
 
     protected function render(string $path, array $params = [])
     {
-        $header   = ROOT_PATH . "/Templates/header.php";
+        $header = ROOT_PATH . "/Templates/header.php";
         $filePath = ROOT_PATH . "/Templates/" . $path . ".php";
-        $footer   = ROOT_PATH . "/Templates/footer.php";
+        $footer = ROOT_PATH . "/Templates/footer.php";
 
         try {
-            if (! file_exists($filePath) || ! file_exists($header) || ! file_exists($footer)) {
+            if (!file_exists($filePath) || !file_exists($header) || !file_exists($footer)) {
                 // generer erreure
                 throw new \Exception(message: "Fichier non trouver :" . $filePath . $header . $footer);
             } else {

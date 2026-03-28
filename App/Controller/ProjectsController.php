@@ -1,27 +1,28 @@
 <?php
 namespace App\Controller;
 
-class PageController extends Router
+class ProjectsController extends Router
 {
     public function route($meta)
     {
         try {
             if (isset($_GET["action"])) {
                 switch ($_GET["action"]) {
-                    case 'home':
-                        $this->home($meta);
+
+                    case 'allprojects':
+                        $this->allprojetcs($meta);
                         break;
 
-                    case 'contact':
-                        $this->contact($meta);
+                    case 'ecoride':
+                        $this->ecoride($meta);
                         break;
 
-                    case 'legal':
-                        $this->legal($meta);
+                    case 'weatherapp':
+                        $this->weatherapp($meta);
                         break;
 
-                    case 'aboutme':
-                        $this->aboutme($meta);
+                    case 'bookeo':
+                        $this->bookeo($meta);
                         break;
 
                     default:
@@ -35,33 +36,32 @@ class PageController extends Router
         }
     }
 
-    protected function home($meta)
+    protected function allprojetcs($meta)
     {
-        $this->render("pages/home");
+        $this->render("projects/allprojetcs");
         // ,["meta" => $meta["home"]]
     }
 
-    protected function legal($meta)
+    protected function ecoride($meta)
+    {
+        $this->render("projects/ecoride");
+        // ,["meta" => $meta["home"]]
+    }
+
+    protected function weatherapp($meta)
     {
         $this->render(
-            "pages/legals",
+            "projects/weatherapp",
             // ["meta" => $meta["legal"]]
         );
     }
 
-    protected function contact($meta)
+    protected function bookeo($meta)
     {
         $this->render(
-            "pages/contact",
+            "projects/bookeo",
             // ["meta" => $meta["contact"]]
         );
     }
 
-    protected function aboutme($meta)
-    {
-        $this->render(
-            "pages/about_me",
-            // ["meta" => $meta["contact"]]
-        );
-    }
 }

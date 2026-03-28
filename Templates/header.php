@@ -20,24 +20,24 @@
   <header>
     <div class="mx-auto flex h-20 max-w-7xl items-center gap-8 px-4 sm:px-6">
 
-      <div class="flex flex-1 items-center justify-between">
+      <div class="flex flex-1 items-center justify-between pt-3">
         <a class="block" href="/index.php?controller=pages&action=home">
           <img src="<?php ROOT_PATH ?>/assets/img/logo/logo_c.png" alt="logo" class="h-22 w-22">
         </a>
         <nav aria-label="Global" class="block">
-          <ul class="flex items-center gap-6 text-sm">
+          <ul class="flex items-center gap-6">
             <li>
-              <a class="transition hover:text-gray-700/75" href="/index.php?controller=pages&action=aboutme"> A propos
+              <a class="transition hover:text-[#00DCBC]" href="/index.php?controller=pages&action=aboutme"> A propos
                 de moi </a>
             </li>
 
             <li>
-              <a class="transition hover:text-gray-500/75" href="/index.php?controller=pages&action=projects">Mes
+              <a class="transition hover:text-[#00DCBC]" href="/index.php?controller=projects&action=allprojects">Mes
                 projets</a>
             </li>
 
             <li>
-              <a class="transition hover:text-gray-500/75" href="index.php?controller=pages&action=contact"> Contact
+              <a class="transition hover:text-[#00DCBC]" href="index.php?controller=pages&action=contact"> Contact
               </a>
             </li>
           </ul>
@@ -48,7 +48,6 @@
             <a class="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
               target="_blank" href="/Uploads/CV Charlotte Michallet-Ferrier développeuse full stack.pdf">
               Voir CV
-
             </a>
 
             <a class="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"

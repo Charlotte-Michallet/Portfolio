@@ -1,9 +1,9 @@
 </main>
 
-<footer class="bg-gray-100">
-  <div class="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-10">
-    <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:-top-2">
-      <a class="inline-block rounded-full bg-teal-600 p-2 text-white shadow-sm transition hover:bg-teal-500 sm:p-3 lg:p-4"
+<footer class="bg-[#ECECEC] text-[#1A1D22]">
+  <div class="relative mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:pt-7">
+    <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:-top-5">
+      <a class="inline-block rounded-full bg-[#00819C] p-2 text-white shadow-sm transition hover:bg-[#00768d] sm:p-3 lg:p-4"
         href="#" aria-label="Revenir en haut">
         <span class="sr-only">Back to top</span>
 
@@ -19,22 +19,12 @@
       <div>
         <ul class="mt-5 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12">
           <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="/index.php?controller=pages&action=legal">
+            <a class="transition hover:text-gray-700/75" href="/index.php?controller=pages&action=legal">
               Mentions légales</a>
           </li>
 
           <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75"
-              href="/index.php?controller=pages&action=aboutme"> A propos de moi </a>
-          </li>
-
-          <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75"
-              href="/index.php?controller=pages&action=projects"> Mes projets</a>
-          </li>
-
-          <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="index.php?controller=pages&action=contact">
+            <a class="transition hover:text-gray-700/75" href="index.php?controller=pages&action=contact">
               Contact </a>
           </li>
         </ul>
