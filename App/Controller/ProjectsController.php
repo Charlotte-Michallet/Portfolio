@@ -10,7 +10,7 @@ class ProjectsController extends Router
                 switch ($_GET["action"]) {
 
                     case 'allprojects':
-                        $this->allprojetcs($meta);
+                        $this->allprojects($meta);
                         break;
 
                     case 'ecoride':
@@ -36,23 +36,21 @@ class ProjectsController extends Router
         }
     }
 
-    protected function allprojetcs($meta)
+    protected function allprojects($meta)
     {
-        $this->render("projects/allprojetcs");
-        // ,["meta" => $meta["home"]]
+        $this->render("projects/allprojects", ["meta" => $meta["allprojects"]]);
     }
 
     protected function ecoride($meta)
     {
-        $this->render("projects/ecoride");
-        // ,["meta" => $meta["home"]]
+        $this->render("projects/ecoride", ["meta" => $meta["ecoride"]]);
     }
 
     protected function weatherapp($meta)
     {
         $this->render(
             "projects/weatherapp",
-            // ["meta" => $meta["legal"]]
+            ["meta" => $meta["weatherapp"]]
         );
     }
 
@@ -60,7 +58,7 @@ class ProjectsController extends Router
     {
         $this->render(
             "projects/bookeo",
-            // ["meta" => $meta["contact"]]
+            ["meta" => $meta["bookeo"]]
         );
     }
 

@@ -13,39 +13,39 @@
 
             <a href="/index.php?controller=projects&action=ecoride">
                 <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
-                    style="background-image:url('/assets/img/ecoride/Site_ecoride.png')">
+                    style="background-image:url('/assets/img/ecoride/Site_ecoride.webp')">
                     <div
                         class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/70 group-hover:opacity-100">
                         <h2 class="mt-4 text-xl font-semibold">Projet : EcoRide</h2>
                         <p class="mt-2 text-lg tracking-wider">Plateforme de
                             covoiturage Eco-responsable</p>
-                        <p class="mt-2 tracking-wider">Techno: Docker / PHP(POO,MVC) / JavaScript / Tailwind</p>
+                        <p class="mt-2 tracking-wider">Techno: Docker / PHP (POO,MVC) / JavaScript / Tailwind</p>
                     </div>
                 </div>
             </a>
 
             <a href="/index.php?controller=projects&action=weatherapp">
                 <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
-                    style="background-image:url('/assets/img/meteoapp.png')">
+                    style="background-image:url('/assets/img/weather app/Paris_sun.webp')">
                     <div
                         class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/70 group-hover:opacity-100">
                         <h2 class="mt-4 text-xl font-semibold">Projet : Météo App</h2>
-                        <p class="mt-2 text-lg tracking-wider">Site de météo avec JavaScript et Openweather
+                        <p class="mt-2 text-lg tracking-wider">Snterface Météo Dynamique &
+                            Asynchrone
                         </p>
-                        <p class="mt-2 tracking-wider">Techno: HTML/CSS/JS</p>
+                        <p class="mt-2 tracking-wider">Techno: HTML / CSS / JavaScript / Openweather</p>
                     </div>
                 </div>
             </a>
 
             <a href="/index.php?controller=projects&action=bookeo">
                 <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
-                    style="background-image:url('/assets/img/ecoride/dusan-adamovic-yFSATNC7aJg-unsplash.jpg')">
+                    style="background-image:url('/assets/img/bookeo/bookeo.webp')">
                     <div
                         class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/70 group-hover:opacity-100">
                         <h2 class="mt-4 text-xl font-semibold">Projet : Bookeo</h2>
-                        <p class="mt-2 text-lg tracking-wider">Site bibliothèque numérique</p>
-                        <p class="mt-2 tracking-wider">Techno: Xampp / PHP(POO,MVC) /JS/Tailwind</p>
-
+                        <p class="mt-2 text-lg tracking-wider">Architecture PHP & Gestion de Bibliothèque</p>
+                        <p class="mt-2 tracking-wider">Techno: Xampp / PHP(POO,MVC) / Bootstrap</p>
                     </div>
                 </div>
             </a>

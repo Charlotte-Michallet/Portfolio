@@ -1,7 +1,7 @@
 <section>
   <section class="overflow-hidden sm:grid sm:grid-cols-2 sm:items-center">
     <div class="p-8 md:p-10 lg:px-15 lg:py-19">
-      <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+      <div class="mx-auto max-w-lg text-center ltr:sm:text-left rtl:sm:text-right">
         <h2 class="text-xl font-semibold md:text-3xl">
           Hello,👋 moi c'est Charlotte
         </h2>
@@ -22,7 +22,7 @@
 
         <div class="flex flex-wrap gap-5 mt-4 md:mt-8">
           <a href="https://github.com/Charlotte-Michallet" target="_blank"
-            class="inline-flex items-center gap-2 rounded-sm bg-[#00819C] px-5 py-1.5 text-sm font-medium text-white transition hover:bg-[#00768d] focus:ring-2 focus:ring-yellow-400 focus:outline-hidden">
+            class="inline-flex items-center gap-2 rounded-sm bg-[#01756e] px-5 py-1.5 text-sm font-medium text-white transition hover:bg-[#00a59a] focus:ring-2 focus:ring-yellow-400 focus:outline-hidden">
 
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="21" height="21" viewBox="0,0,256,256">
               <g fill="#ececec" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -40,7 +40,7 @@
           </a>
 
           <a href="https://www.linkedin.com/in/charlotte-michallet-ferrier/" target="_blank"
-            class="inline-flex items-center gap-2 rounded-sm bg-[#00819C] px-5 py-1.5 text-sm font-medium text-white transition hover:bg-[#00768d] focus:ring-2 focus:ring-yellow-400 focus:outline-hidden">
+            class="inline-flex items-center gap-2 rounded-sm bg-[#01756e] px-5 py-1.5 text-sm font-medium text-white transition hover:bg-[#00a59a] focus:ring-2 focus:ring-yellow-400 focus:outline-hidden">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72" fill="none">
                 <path
@@ -52,7 +52,7 @@
           </a>
 
           <a href="mailto:charlotte.michalletferrier@gmail.com"
-            class="inline-flex items-center gap-2 rounded-sm bg-[#00819C] px-5 py-1.5 text-sm font-medium text-white transition hover:bg-[#00768d] focus:ring-2 focus:ring-yellow-400 focus:outline-hidden">
+            class="inline-flex items-center gap-2 rounded-sm bg-[#01756e] px-5 py-1.5 text-sm font-medium text-white transition hover:bg-[#00a59a] focus:ring-2 focus:ring-yellow-400 focus:outline-hidden">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 -0.5 16 16" fill="none" stroke="#ececec"
               stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail" id="Mail--Streamline-Feather"
               height="16" width="16">
@@ -71,7 +71,7 @@
     </div>
 
     <div class="w-90 mx-auto my-10">
-      <img src="assets/img/profilpic.png" alt="Charlotte Michallet-Ferrier" class="w-9/10 h-auto object-contain">
+      <img src="assets/img/profil.webp" alt="Charlotte Michallet-Ferrier" class="w-9/10 h-auto object-contain">
     </div>
 
   </section>
@@ -405,5 +405,5 @@
     </div>
   </section>
 
-  <?php require_once dirname(__DIR__, 2) . "/Templates/projects/allprojetcs.php"; ?>
+  <?php require_once dirname(__DIR__, 2) . "/Templates/projects/allprojects.php"; ?>
 </section>

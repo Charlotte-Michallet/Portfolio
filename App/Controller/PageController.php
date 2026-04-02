@@ -37,15 +37,14 @@ class PageController extends Router
 
     protected function home($meta)
     {
-        $this->render("pages/home");
-        // ,["meta" => $meta["home"]]
+        $this->render("pages/home", ["meta" => $meta["home"]]);
     }
 
     protected function legal($meta)
     {
         $this->render(
             "pages/legals",
-            // ["meta" => $meta["legal"]]
+            ["meta" => $meta["legal"]]
         );
     }
 
@@ -53,7 +52,7 @@ class PageController extends Router
     {
         $this->render(
             "pages/contact",
-            // ["meta" => $meta["contact"]]
+            ["meta" => $meta["contact"]]
         );
     }
 
@@ -61,7 +60,7 @@ class PageController extends Router
     {
         $this->render(
             "pages/about_me",
-            // ["meta" => $meta["contact"]]
+            ["meta" => $meta["about_me"]]
         );
     }
 }

@@ -4,19 +4,22 @@
         <div class="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6">
             <!-- Content -->
             <div class="order-last lg:col-span-2 mb-6">
-                <div class="py-8 lg:pe-8">
+                <div class="py-1 lg:py-6 lg:pe-8">
                     <div class="space-y-5 lg:space-y-8">
 
-                        <h2 class="text-3xl font-bold lg:text-5xl">Projet : Météo App - Plateforme de
-                            covoiturage Eco-responsable</h2>
-                        <h3 class="text-xl font-semibold lg:text-2xl pt-5 pb-1">Projet d'étude : Graduate Développeur
+                        <h2 class="text-3xl font-bold lg:text-5xl">Projet : Météo App - Interface Météo Dynamique &
+                            Asynchrone</h2>
+                        <h3 class="text-xl font-semibold lg:text-2xl pt-5 pb-1">Projet d'étude : (exercice) Graduate
+                            Développeur
                             Web (Bac+2)</h3>
 
                     </div>
                     <h3 class="text-xl font-semibold lg:text-2xl pt-5 pb-1">Contexte :</h3>
-                    <p class="text-lg pb-5">EcoRide est une application web dynamique mettant en relation
-                        conduteur et passagers pour des trajets exclusivement français. L'objectif est de réduire
-                        l'empreinte carbone tout en proposant une solution de mobilité économique.</p>
+                    <p class="text-lg pb-5">Développement d'une interface météo dynamique exploitant l'API OpenWeather.
+                        L'objectif de ce projet était de concevoir une interface capable d'afficher les conditions
+                        météorologiques en temps réel pour n'importe quelle ville mondiale. Ce travail m'a permis de
+                        valider les fondamentaux du développement front-end et la gestion des flux de données
+                        asynchrones.</p>
 
                     <div class="space-y-5 lg:space-y-8">
                         <div class="text-center">
@@ -24,99 +27,90 @@
                                 <div class="grid grid-cols-2 lg:grid-cols-1 gap-3">
                                     <figure class="relative w-full h-60">
                                         <img class="size-full absolute top-0 start-0 object-cover rounded-xl"
-                                            src="/assets/img/ecoride/covoiturage.png" alt="page covoiturage">
+                                            src="/assets/img/weather app/LA.webp" alt="Météo Los Angeless">
                                     </figure>
                                     <figure class="relative w-full h-60">
                                         <img class="size-full absolute top-0 start-0 object-cover rounded-xl"
-                                            src="/assets/img/ecoride/admin.png" alt="page d'acceuil EcoRide">
+                                            src="/assets/img/weather app/Madrid.webp" alt="Météo Madrid">
                                     </figure>
                                 </div>
                                 <figure class="relative w-full h-72 sm:h-96 lg:h-full">
                                     <img class="size-full absolute top-0 start-0 object-cover rounded-xl"
-                                        src="/assets/img/ecoride/Site_ecoride.png" alt="tableau bord administrateur">
+                                        src="/assets/img/weather app/Paris.webp" alt="météo Paris">
                                 </figure>
                             </div>
 
                             <span class="mt-3 block text-sm text-center text-muted-foreground-1">
-                                Images du site Ecoride
+                                Images du site Météo app
                             </span>
                         </div>
 
                         <div class="space-y-3">
-                            <h3 class="text-2xl font-semibold">Les fonctionnalités développées :</h3>
+                            <h3 class="text-2xl font-semibold">Logique de Développement :</h3>
 
-                            <p class="text-lg">L'application EcoRide a été conçue pour répondre aux besoins de 5 types
-                                d'utilisateur distincts :</p>
+                            <p class="text-lg">Le cœur de l'application repose sur la communication avec l'API
+                                OpenWeather. J'ai mis en place une logique de traitement des promesses pour gérer les
+                                différents états de l'application :</p>
 
                             <ul class="list-disc list-outside space-y-5 ps-5 text-lg">
-                                <li class="ps-2"><b>Admin :</b> Dashboard de statistiques
-                                    et gestion des comptes employés et utilisateurs.
+                                <li class="ps-2"><b>Sanitization :</b> Nettoyage systématique des entrées utilisateur
+                                    pour prévenir les erreurs de requête.
                                 </li>
-                                <li class="ps-2"><b>Employés :</b> Modération des avis passagers.
+
+                                <li class="ps-2"><b>Gestion d'états :</b> Affichage d'un loader pendant la récupération
+                                    des données et d'une vue d'erreur si la ville est introuvable.
                                 </li>
-                                <li class="ps-2"><b>Conducteur :</b> Création de trajets et annulation avec notification
-                                    par mail aux passagers.
-                                </li>
-                                <li class="ps-2"><b>Passager :</b> Recherche de trajets avec filtres multicritères,
-                                    réservation et annulation de trajets.
-                                </li>
-                                <li class="ps-2"><b>Visiteur :</b> Recherche et consultation de trajets avec filtres.
+
+                                <li class="ps-2"><b>DOM Manipulation :</b> Mise à jour instantanée des éléments
+                                    (textContent, appendChild) sans
+                                    rechargement de la page.
                                 </li>
                             </ul>
-
-                            <p class="text-lg">Chaque rôle dispose d'un système d'authentification sécurisé et de droits
-                                d'accès spécifiques gérés côté serveur.</p>
                         </div>
 
                         <figure>
-                            <img class="w-3/4 object-cover rounded-xl mx-auto" src="/assets/img/ecoride/notion.png"
-                                alt="tableau kanban">
+                            <img class="w-3/5 object-cover rounded-xl mx-auto"
+                                src="/assets/img/weather app/Paris_sun.webp" alt="tableau kanban">
                             <figcaption class="mt-3 text-sm text-center text-muted-foreground-1">
-                                Tableau Kanban
+                                Images du site Météo app pour Paris
                             </figcaption>
                         </figure>
 
                         <div class="space-y-3">
-                            <h3 class="text-2xl font-semibold">Gestion projet et méthodologie</h3>
+                            <h3 class="text-2xl font-semibold">Design Contextuel & Responsive :</h3>
 
-                            <p class="text-lg">Pour ce projet, j'ai adopté une approche Agile. À partir des User Stories
-                                (création de compte, réservation...), j'ai structuré le développement via un tableau
-                                Kanban sur Notion. <br>
-                                Cette organisation m'a permis de piloter les priorités et de suivre l'état d'avancement
-                                (Pas commencé, En cours, Terminé) en temps réel, garantissant le respect de la deadline.
-                            </p>
-                        </div>
-
-                        <div class="space-y-3">
-                            <h3 class="text-2xl font-semibold">Architecture et Conception</h3>
-
-                            <p class="text-lg"> Avant de coder, j'ai modélisé l'intelligence de l'application :
-                            </p>
+                            <p class="text-lg">L'interface ne se contente pas d'afficher des chiffres ; elle réagit aux
+                                données :</p>
 
                             <ul class="list-disc list-outside space-y-5 ps-5 text-lg">
-                                <li class="ps-2"> <b>Diagramme de Cas d'Utilisation :</b> Pour définir les interactions
-                                    des 5 rôles (Admin, Employé, etc.).
-                                </li>
-                                <li class="ps-2"> <b>Diagramme de Séquence :</b> Pour tracer la logique des échanges de
-                                    données.
-                                </li>
-                                <li class="ps-2"> <b>MCD (Modèle Conceptuel de Données) : </b> Une structure robuste
-                                    incluant les entités Users, Car_sharing, Reservations, et Feedbacks.
+                                <li class="ps-2"><b>Adaptabilité visuelle :</b> Le fond (background) et les icônes
+                                    changent dynamiquement selon le code
+                                    météo renvoyé par l'API (soleil, pluie, orage).
                                 </li>
 
+                                <li class="ps-2"><b>Animations :</b> Utilisation de @keyframes pour adoucir les
+                                    transitions de couleurs et l'apparition
+                                    des informations.
+                                </li>
+
+                                <li class="ps-2"><b>Mobile-First :</b> Intégration de Media Queries pour garantir une
+                                    lisibilité parfaite sur
+                                    smartphone.
+                                </li>
                             </ul>
                         </div>
 
                         <div class="space-y-3">
-                            <h3 class="text-2xl font-semibold">Déploiement</h3>
+                            <h3 class="text-2xl font-semibold">Sécurisation & Évolutivité :</h3>
 
-                            <p class="text-lg"> Passage en production incluant la configuration de l'environnement
-                                serveur et l'adaptation de l'infrastructure aux besoins du projet. Plusieurs
-                                problématiques de déploiement ont été résolues avec succès.
-                            </p>
+                            <p class="text-lg">Actuellement développée en Vanilla JS (Front-end), l'application expose
+                                la clé d'API dans le code source, ce qui constitue une limite de sécurité pour une mise
+                                en production réelle.</p>
 
+                            <p class="text-lg"> <b>Évolution prévue :</b> Migration vers un environnement Node.js pour
+                                implémenter un serveur proxy. Cela permettra de masquer les identifiants sensibles et de
+                                centraliser les appels API côté serveur.</p>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -126,7 +120,8 @@
                 class="order-first lg:order-last lg:col-span-1 lg:w-full lg:h-full lg:bg-linear-to-r lg:from-background lg:via-transparent lg:to-transparent">
                 <div class="sticky top-0 start-0 py-6 lg:ps-8">
                     <div class="group flex items-center gap-x-3 border-b border-line-2 pb-2 mb-4">
-                        <img class="size-10 rounded-lg block shrink-0" src="/assets/img/ecoride/form.png" alt="logo">
+                        <img class="size-10 rounded-lg block shrink-0" src="/assets/img/weather app/la-meteo.webp"
+                            alt="logo">
 
                         <h5
                             class="group-hover:text-muted-foreground-2 group-focus:text-muted-foreground-2 text-sm font-semibold">
@@ -135,19 +130,10 @@
                     </div>
 
                     <div class="space-y-2">
-                        <!-- Media -->
-                        <div class="grow">
-                            <a href="https://ecoride-covoiturage-2025.alwaysdata.net/" target="_blank"
-                                class="flex flex-wrap gap-2 text-sm font-medium group-hover:text-primary-hover group-focus:text-primary-focus">
-                                <img class="size-5 rounded-lg block shrink-0" src="/assets/img/ecoride/form.png"
-                                    alt="logo">
-                                Site EcoRide
-                            </a>
-                        </div>
 
                         <!-- Media -->
                         <div class="grow">
-                            <a href="https://github.com/Charlotte-Michallet/EcoRide" target="_blank"
+                            <a href="https://github.com/Charlotte-Michallet/Meteo-app" target="_blank"
                                 class="flex flex-wrap gap-2 text-sm font-medium group-hover:text-primary-hover group-focus:text-primary-focus">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="21" height="21"
                                     viewBox="0,0,256,256">
@@ -165,29 +151,6 @@
                                 Code source sur Github
                             </a>
                         </div>
-
-                        <!-- Media -->
-                        <div class="grow">
-                            <a href="https://www.figma.com/design/5hcygFrfZqcjmaMbrGpiQ8/EcoRide?node-id=0-1&p=f&t=9Jz0s7HcAsylj1FD-0"
-                                target="_blank"
-                                class="flex flex-wrap gap-2 text-sm font-medium group-hover:text-primary-hover group-focus:text-primary-focus">
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="21" height="21"
-                                    viewBox="0,0,256,256">
-                                    <g fill="#ececec" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                        <g transform="scale(5.12,5.12)">
-                                            <path
-                                                d="M25,2v14h-7c-3.855,0 -7,-3.145 -7,-7c0,-3.855 3.145,-7 7,-7zM25,18v14h-7c-3.855,0 -7,-3.145 -7,-7c0,-3.855 3.145,-7 7,-7zM25,34v7c0,3.855 -3.145,7 -7,7c-3.855,0 -7,-3.145 -7,-7c0,-3.855 3.145,-7 7,-7zM41,9c0,3.855 -3.145,7 -7,7h-7v-14h7c3.855,0 7,3.145 7,7zM34,18c-3.86599,0 -7,3.13401 -7,7c0,3.86599 3.13401,7 7,7c3.86599,0 7,-3.13401 7,-7c0,-3.86599 -3.13401,-7 -7,-7z">
-                                            </path>
-                                        </g>
-                                    </g>
-                                </svg>
-                                Maquettes sur Figma
-                            </a>
-                        </div>
-                        <!-- End Media -->
                     </div>
 
                     <div class="mt-3">
@@ -207,7 +170,7 @@
                                 class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
                                 <span
                                     class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    Tailwind CSS
+                                    CSS
                                 </span>
                             </span>
 
@@ -215,115 +178,21 @@
                                 class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
                                 <span
                                     class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    JavaScript
+                                    JavaScript (ES6+)
                                 </span>
                             </span>
-
-                            <span
-                                class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
-                                <span
-                                    class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    Leaflet.js
-                                </span>
-                            </span>
-
-                            <span
-                                class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
-                                <span
-                                    class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    Chart.js
-                                </span>
-                            </span>
-
-                            <span
-                                class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
-                                <span
-                                    class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    HeiGIT
-                                </span>
-                            </span>
-
                         </div>
 
-                        <h3 class="font-medium lg:text-lg pb-3">Back-end</h3>
+                        <h3 class="font-medium lg:text-lg pb-3">Données</h3>
 
                         <div class="flex flex-wrap gap-2 lg:gap-4 mb-4">
                             <span
                                 class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
                                 <span
                                     class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    PHP (POO, MVC)
+                                    API OpenWeather
                                 </span>
                             </span>
-
-                            <span
-                                class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
-                                <span
-                                    class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    PHPMailer
-                                </span>
-                            </span>
-
-                            <span
-                                class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
-                                <span
-                                    class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    MySQL
-                                </span>
-                            </span>
-
-                            <span
-                                class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
-                                <span
-                                    class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    MongoDB
-                                </span>
-                            </span>
-                        </div>
-
-                        <h3 class="font-medium lg:text-lg pb-3">Architecture et infrastructure</h3>
-
-                        <div class="flex flex-wrap gap-2 lg:gap-4 mb-4">
-
-                            <span
-                                class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
-                                <span
-                                    class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    Notion
-                                </span>
-                            </span>
-                            <span
-                                class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
-                                <span
-                                    class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    Docker
-                                </span>
-                            </span>
-
-                            <span
-                                class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
-                                <span
-                                    class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    Figma
-                                </span>
-                            </span>
-
-                            <span
-                                class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
-                                <span
-                                    class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    Nominatim
-                                </span>
-                            </span>
-
-                            <span
-                                class="group inline-block rounded-full bg-linear-to-r from-[#00715E] via-[#008670] to-[#00DCBC] p-0.5 hover:text-white">
-                                <span
-                                    class="block rounded-full bg-[#1A1D22] px-4 py-3 text-sm group-hover:bg-transparent">
-                                    Alwaysdata
-                                </span>
-                            </span>
-
                         </div>
 
                     </div>

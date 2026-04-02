@@ -1,2 +1,4 @@
 .env
 /vendor/
+robots.txt
+sitemap.xml

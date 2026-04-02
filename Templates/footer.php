@@ -2,8 +2,8 @@
 
 <footer class="bg-[#ECECEC] text-[#1A1D22]">
   <div class="relative mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:pt-7">
-    <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:-top-5">
-      <a class="inline-block rounded-full bg-[#00819C] p-2 text-white shadow-sm transition hover:bg-[#00768d] sm:p-3 lg:p-4"
+    <div class="absolute end-4 -top-4 lg:end-8 lg:-top-5">
+      <a class="inline-block rounded-full bg-[#01756e] p-2 text-white shadow-sm transition hover:bg-[#00a59a] sm:p-3 lg:p-4"
         href="#" aria-label="Revenir en haut">
         <span class="sr-only">Back to top</span>
 
@@ -30,8 +30,8 @@
         </ul>
       </div>
 
-      <p class="mt-5 text-center text-sm text-gray-500 lg:text-right">
-        Charlotte Michallet-Ferrier &copy; <!-- 2026 --> <?php echo date("Y") ?>. Tous droits réservés
+      <p class="mt-5 text-center text-sm text-[#0F2621] lg:text-right">
+        Charlotte &copy; <!-- 2026 --> <?php echo date("Y") ?>. Tous droits réservés
       </p>
     </div>
 

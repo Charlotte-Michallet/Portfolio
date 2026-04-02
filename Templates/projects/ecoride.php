@@ -4,7 +4,7 @@
         <div class="grid lg:grid-cols-3 gap-y-8 lg:gap-y-0 lg:gap-x-6">
             <!-- Content -->
             <div class="order-last lg:col-span-2 mb-6">
-                <div class="py-8 lg:pe-8">
+                <div class="py-1 lg:py-6 lg:pe-8">
                     <div class="space-y-5 lg:space-y-8">
 
                         <h2 class="text-3xl font-bold lg:text-5xl">Projet : EcoRide - Plateforme de
@@ -23,16 +23,16 @@
                                 <div class="grid grid-cols-2 lg:grid-cols-1 gap-3">
                                     <figure class="relative w-full h-60">
                                         <img class="size-full absolute top-0 start-0 object-cover rounded-xl"
-                                            src="/assets/img/ecoride/covoiturage.png" alt="page covoiturage">
+                                            src="/assets/img/ecoride/covoiturage.webp" alt="page covoiturage">
                                     </figure>
                                     <figure class="relative w-full h-60">
                                         <img class="size-full absolute top-0 start-0 object-cover rounded-xl"
-                                            src="/assets/img/ecoride/admin.png" alt="page d'acceuil EcoRide">
+                                            src="/assets/img/ecoride/admin.webp" alt="page d'accueil EcoRide">
                                     </figure>
                                 </div>
                                 <figure class="relative w-full h-72 sm:h-96 lg:h-full">
                                     <img class="size-full absolute top-0 start-0 object-cover rounded-xl"
-                                        src="/assets/img/ecoride/Site_ecoride.png" alt="tableau bord administrateur">
+                                        src="/assets/img/ecoride/Site_ecoride.webp" alt="tableau bord administrateur">
                                 </figure>
                             </div>
 
@@ -68,9 +68,9 @@
                         </div>
 
                         <figure>
-                            <img class="w-3/4 object-cover rounded-xl mx-auto" src="/assets/img/ecoride/notion.png"
+                            <img class="w-3/4 object-cover rounded-xl mx-auto" src="/assets/img/ecoride/notion.webp"
                                 alt="tableau kanban">
-                            <figcaption class="mt-3 text-sm text-center text-muted-foreground-1">
+                            <figcaption class="mt-3 text-sm text-center">
                                 Tableau Kanban
                             </figcaption>
                         </figure>
@@ -123,9 +123,9 @@
             <!-- Sidebar -->
             <div
                 class="order-first lg:order-last lg:col-span-1 lg:w-full lg:h-full lg:bg-linear-to-r lg:from-background lg:via-transparent lg:to-transparent">
-                <div class="sticky top-0 start-0 py-6 lg:ps-8">
+                <div class="sticky top-0 start-0 py-4 lg:py-6  lg:ps-8">
                     <div class="group flex items-center gap-x-3 border-b border-line-2 pb-2 mb-4">
-                        <img class="size-10 rounded-lg block shrink-0" src="/assets/img/ecoride/form.png" alt="logo">
+                        <img class="size-10 rounded-lg block shrink-0" src="/assets/img/ecoride/form.webp" alt="logo">
 
                         <h5
                             class="group-hover:text-muted-foreground-2 group-focus:text-muted-foreground-2 text-sm font-semibold">
@@ -138,7 +138,7 @@
                         <div class="grow">
                             <a href="https://ecoride-covoiturage-2025.alwaysdata.net/" target="_blank"
                                 class="flex flex-wrap gap-2 text-sm font-medium group-hover:text-primary-hover group-focus:text-primary-focus">
-                                <img class="size-5 rounded-lg block shrink-0" src="/assets/img/ecoride/form.png"
+                                <img class="size-5 rounded-lg block shrink-0" src="/assets/img/ecoride/form.webp"
                                     alt="logo">
                                 Site EcoRide
                             </a>
