@@ -10,11 +10,11 @@
           et garantie sans erreur 404.
         </h2>
 
-        <p class="hidden mt-4 md:block font-semibold">
+        <p class="mt-4 font-semibold">
           Graduate Développeur Web et Web Mobile (Bac+2) validé, en route pour le Bachelor CDA (Bac+3)!
         </p>
 
-        <p class="hidden md:mt-2 md:block">
+        <p class=" md:mt-2">
           Je cherche <strong>une alternance</strong> pour coder en <strong>PHP, JavaScript & SQL</strong>...
           Sérieuse sur le code, passionnée par l’UX, et toujours partante pour une réunion... surtout s'il y a des
           croissants. 🥐
@@ -70,8 +70,9 @@
       </div>
     </div>
 
-    <div class="w-90 mx-auto my-10">
-      <img src="assets/img/profil.webp" alt="Charlotte Michallet-Ferrier" class="w-9/10 h-auto object-contain">
+    <div class="w-full md:w-90 md:mx-auto my-10">
+      <img src="assets/img/profil.webp" alt="Charlotte Michallet-Ferrier"
+        class="block mx-auto w-7/10 md:w-8/10 lg:w-9/10 h-auto object-contain">
     </div>
 
   </section>

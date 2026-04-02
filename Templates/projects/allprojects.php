@@ -12,7 +12,7 @@
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
 
             <a href="/index.php?controller=projects&action=ecoride">
-                <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer h-64 md:h-80 group"
                     style="background-image:url('/assets/img/ecoride/Site_ecoride.webp')">
                     <div
                         class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/70 group-hover:opacity-100">
@@ -25,7 +25,7 @@
             </a>
 
             <a href="/index.php?controller=projects&action=weatherapp">
-                <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer h-64 md:h-80 group"
                     style="background-image:url('/assets/img/weather app/Paris_sun.webp')">
                     <div
                         class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/70 group-hover:opacity-100">
@@ -39,7 +39,7 @@
             </a>
 
             <a href="/index.php?controller=projects&action=bookeo">
-                <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+                <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer h-64 lg:h-80 group"
                     style="background-image:url('/assets/img/bookeo/bookeo.webp')">
                     <div
                         class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/70 group-hover:opacity-100">
