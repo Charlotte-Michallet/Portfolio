@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://portfolio-charlotte.onrender.com/">
+<!-- Home -->
+  <url>
+    <loc>https://portfolio-charlotte.onrender.com/</loc>
+    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-04-03</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+<!-- All projects -->
+  <url>
+    <loc>https://portfolio-charlotte.onrender.com/index.php?controller=projects&action=allprojects</loc>
+      <priority>0.9</priority>
+  </url>
+
+<!-- About me -->
+  <url>
+    <loc>https://portfolio-charlotte.onrender.com/index.php?controller=pages&action=aboutme</loc>
+      <priority>0.8</priority>
+  </url>
+
+<!-- Project Ecoride -->
+  <url>
+    <loc>https://portfolio-charlotte.onrender.com/index.php?controller=projects&action=ecoride</loc>
+      <priority>0.8</priority>
+  </url>
+
+<!-- Project Weather app -->
+  <url>
+    <loc>https://portfolio-charlotte.onrender.com/index.php?controller=projects&action=weatherapp</loc>
+      <priority>0.8</priority>
+  </url>
+
+<!-- Project Bookeo -->
+  <url>
+    <loc>https://portfolio-charlotte.onrender.com/index.php?controller=projects&action=bookeo</loc>
+      <priority>0.8</priority>
+  </url>
+</urlset>
+
+aboutme
+mes projet
+ecoride
+meteo
+booke
+contact
+
+
+

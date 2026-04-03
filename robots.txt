@@ -1,0 +1,14 @@
+# Autorise tous les robots (Google, Bing, LinkedIn, etc.)
+User-agent: *
+
+# Interdire l'accès aux dossiers sensibles ou techniques
+Disallow: /config/
+Disallow: /vendor/
+
+# Interdire l'accès aux pages que tu as mis en noindex (sécurité supplémentaire)
+Disallow: /legal
+Disallow: /error
+Disallow: /health.php
+
+# Indiquer le chemin du plan du site (Sitemap)
+Sitemap: https://portfolio-charlotte.onrender.com/sitemap.xml

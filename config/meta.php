@@ -5,7 +5,7 @@ return [
         "title" => "Charlotte - Développeuse Web Fullstack en alternance",
         "description" => "Bienvenue sur mon portfolio. Je conçois des applications web modernes et performantes. Découvrez mes projets et mes compétences techniques.",
         "robots" => "index, follow",
-        "ogtitle" => "Portfolio de Charlotte - Développeuse Web",
+        "ogtitle" => "Charlotte - Développeuse Web Fullstack - Portfolio & Projets",
         "ogdescription" => "Découvrez mon portfolio de développeuse web : projets Fullstack, compétences techniques et ma recherche d'alternance. On travaille ensemble ?",
         "image" => "home.png"
     ],
@@ -31,15 +31,15 @@ return [
         "title" => "Mes Réalisations Web - Portfolio de Charlotte",
         "description" => "Explorez l'ensemble de mes projets : applications web, outils interactifs et exercices techniques réalisés durant ma formation.",
         "robots" => "index, follow",
-        "ogtitle" => "Mes Réalisations Web & Études de Cas - Portfolio de Charlotte",
-        "ogdescription" => "Parcourez mes dernières réalisations web : du PHP MVC au JavaScript natif. Voici ce que je sais faire.",
-        "image" => "aalprojects.png"
+        "ogtitle" => "Mes Réalisations Web & Études de Cas - Portfolio Charlotte",
+        "ogdescription" => "Parcourez mes réalisations web : du PHP (MVC) au JavaScript natif. Découvrez mes projets techniques et mon savoir-faire de développeuse.",
+        "image" => "allprojects.png"
     ],
     "ecoride" => [
         "title" => "EcoRide : Plateforme de Covoiturage Écoresponsable",
         "description" => "Étude de cas : Développement d'une application de covoiturage complète avec gestion de trajets, utilisateurs et empreinte carbone.",
         "robots" => "index, follow",
-        "ogtitle" => "Projet EcoRide - Covoiturage PHP MVC",
+        "ogtitle" => "Développement de la plateforme EcoRide - Covoiturage PHP MVC",
         "ogdescription" => "Focus projet : EcoRide. Une application de covoiturage complète gérant les trajets et l'impact écologique. Développée en PHP (architecture MVC).",
         "image" => "ecoride.png"
     ],
@@ -47,7 +47,7 @@ return [
         "title" => "WeatherApp : Météo en temps réel via API",
         "description" => "Application météo interactive utilisant une API externe pour fournir des prévisions précises avec une interface utilisateur dynamique.",
         "robots" => "index, follow",
-        "ogtitle" => "Projet WeatherApp - JavaScript & API",
+        "ogtitle" => "Développement de WeatherApp - Interface Interactive & API Météo",
         "ogdescription" => "Focus projet : WeatherApp. Comment j'ai utilisé les API REST pour créer une interface météo dynamique et fluide.",
         "image" => "weatherapp.png"
     ],
@@ -55,7 +55,7 @@ return [
         "title" => "Bookeo : Gestionnaire de Bibliothèque Numérique.",
         "description" => "Système de gestion de livres permettant l'archivage, la notation et la recherche de titres au sein d'une base de données SQL.",
         "robots" => "index, follow",
-        "ogtitle" => "Projet Bookeo - Gestion CRUD PHP",
+        "ogtitle" => "Bookeo - Système de Gestion de Livres en Architecture MVC",
         "ogdescription" => "Focus projet : Bookeo. Maîtrise du CRUD et des bases de données SQL pour la gestion d'une bibliothèque numérique.",
         "image" => "bookeo.png"
     ],
