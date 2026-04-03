@@ -26,7 +26,7 @@ class Router
                         break;
 
                     default:
-                        $this->render("errors/default", ["error" => $e->getMessage()]);
+                        $this->error($meta);
                         break;
                 }
             } else {
@@ -35,7 +35,7 @@ class Router
                 $pageRouter->home($meta);
             }
         } catch (\Exception $e) {
-            $this->render("errors/default", ["error" => $e->getMessage()]);
+            $this->error($meta);
 
             // if (isset($_GET["controller"]) && $_GET["controller"] === "api") {
             //     self::jsonResponse(["status" => "error", "message" => "Erreur interne du serveur API: " . $e->getMessage()], 500);
@@ -44,6 +44,11 @@ class Router
             //     $this->render("errors/default", ["error" => $e->getMessage()]);
             // }
         }
+    }
+
+    protected function error($meta)
+    {
+        $this->render("errors/default", ["meta" => $meta["error"]]);
     }
 
     protected function render(string $path, array $params = [])

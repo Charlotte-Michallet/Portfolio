@@ -129,7 +129,7 @@
 
           <div class="mt-3 w-full md:w-3/5">
             <!-- Card -->
-            <a class="block border border-[#ECECEC] rounded-lg bg-white/5 pl-2 pt-1 backdrop-blur-md shadow-xl"
+            <a class="block border border-[#ECECEC] rounded-lg bg-white/5 pl-2 pt-1 backdrop-blur-md shadow-xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-[#12F7D6] rounded-lg"
               href="/index.php?controller=projects&action=ecoride">
               <div class="relative flex items-center overflow-hidden">
                 <img class="w-24 md:w-48 hidden md:block md:absolute inset-0 object-cover rounded-s-lg"

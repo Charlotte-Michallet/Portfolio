@@ -81,7 +81,7 @@
           <label class="block font-medium" for="name">Nom</label>
 
           <input
-            class="mt-1 w-full rounded-lg bg-[#0B2B26]/30 backdrop-blur-md border border-[#008670] text-[#2B8A99] focus:border-indigo-500 focus:outline-none p-2"
+            class="mt-1 w-full rounded-lg bg-[#0B2B26]/30 backdrop-blur-md border border-[#008670] text-[#2B8A99] p-2"
             id="name" type="text" placeholder="Votre Nom">
           <p class="hidden text-xs text-[#F43F5E] mt-2" id="nameError"></p>
         </div>
@@ -90,7 +90,7 @@
           <label class="block font-medium" for="email">Email</label>
 
           <input
-            class="mt-1 w-full rounded-lg bg-[#0B2B26]/30 backdrop-blur-md border border-[#008670] text-[#2B8A99] focus:border-indigo-500 focus:outline-none p-2"
+            class="mt-1 w-full rounded-lg bg-[#0B2B26]/30 backdrop-blur-md border border-[#008670] text-[#2B8A99] p-2"
             id="email" type="text" placeholder="Votre adresse e-mail">
           <p class="hidden text-xs text-[#F43F5E] mt-2" id="emailError"></p>
         </div>
@@ -99,7 +99,7 @@
           <label class="block font-medium" for="message">Message</label>
 
           <textarea
-            class="mt-1 w-full rounded-lg bg-[#0B2B26]/30 backdrop-blur-md border border-[#008670] text-[#2B8A99] focus:border-indigo-500 focus:outline-none p-2"
+            class="mt-1 w-full rounded-lg bg-[#0B2B26]/30 backdrop-blur-md border border-[#008670] text-[#2B8A99] p-2"
             id="message" rows="4" placeholder="Votre message"></textarea>
           <p class="hidden text-xs text-[#F43F5E] mt-2" id="FormError"></p>
           <p class="hidden text-green-600 mt-2" id="succesError"></p>

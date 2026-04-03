@@ -24,7 +24,7 @@
   <meta property="og:title" content="<?= htmlspecialchars($meta['ogtitle']) ?>">
   <meta property="og:description" content="<?= htmlspecialchars($meta['ogdescription']) ?>">
   <meta property="og:image"
-    content="https://ton-portfolio.fr/assets/img/og/<?= !empty($meta['image']) ? $meta['image'] : 'home.png' ?>">
+    content="https://portfolio-charlotte.onrender.com/assets/img/og/<?= !empty($meta['image']) ? $meta['image'] : 'home.png' ?>">
 
 </head>
 
@@ -59,12 +59,12 @@
 
         <div class="flex items-center gap-4 text-lg mt-3 md:mt-0">
           <div class="flex gap-4">
-            <a class="block inline-flex items-center gap-2 rounded-md bg-[#01756e] px-3 py-1 lg:px-5 lg:py-1.5 text-xs lg:text-sm font-medium transition hover:bg-[#00a59a] focus:ring-2 focus:ring-yellow-400 focus:outline-hidden"
+            <a class="block inline-flex items-center gap-2 rounded-md bg-[#01756e] px-3 py-1.5 lg:px-5 lg:py-2 text-xs lg:text-sm font-medium transition hover:bg-[#00a59a] "
               target="_blank" href="/assets/doc/CV_Charlotte_Developpeuse_fullstack.pdf">
               Consulter le CV
             </a>
             <!--   -->
-            <a class="block inline-flex items-center gap-2 rounded-md bg-[#ECECEC] px-3 py-1 lg:px-5 lg:py-1.5 text-xs lg:text-sm font-medium text-[#01756e] transition hover:text-[#00a59a]/75 hover:bg-[#e4e4e4]"
+            <a class="block inline-flex items-center gap-2 rounded-md bg-[#ECECEC] px-3 py-1.5 lg:px-5 lg:py-2 text-xs lg:text-sm font-medium text-[#01756e] transition hover:text-[#00a59a]/75 hover:bg-[#e4e4e4]"
               href="/assets/doc/CV_Charlotte_Developpeuse_fullstack.pdf"
               download="/assets/doc/CV_Charlotte_Developpeuse_fullstack.pdf">
               Télécharger le CV

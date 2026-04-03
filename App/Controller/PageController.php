@@ -31,7 +31,7 @@ class PageController extends Router
                 throw new \Exception("Aucune action détectée");
             }
         } catch (\Exception $e) {
-            $this->render("errors/default", ["error" => $e->getMessage()]);
+            $this->error($meta);
         }
     }
 

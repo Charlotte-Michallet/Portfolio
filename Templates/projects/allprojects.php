@@ -11,7 +11,8 @@
 
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
 
-            <a href="/index.php?controller=projects&action=ecoride">
+            <a href="/index.php?controller=projects&action=ecoride"
+                class="focus:outline-none focus:ring-2 focus:ring-primary focus:ring-[#12F7D6] rounded-lg">
                 <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer h-64 md:h-80 group"
                     style="background-image:url('/assets/img/ecoride/Site_ecoride.webp')">
                     <div
@@ -24,7 +25,8 @@
                 </div>
             </a>
 
-            <a href="/index.php?controller=projects&action=weatherapp">
+            <a href="/index.php?controller=projects&action=weatherapp"
+                class="focus:outline-none focus:ring-2 focus:ring-primary focus:ring-[#12F7D6] rounded-lg">
                 <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer h-64 md:h-80 group"
                     style="background-image:url('/assets/img/weather app/Paris_sun.webp')">
                     <div
@@ -38,8 +40,9 @@
                 </div>
             </a>
 
-            <a href="/index.php?controller=projects&action=bookeo">
-                <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer h-64 lg:h-80 group"
+            <a href="/index.php?controller=projects&action=bookeo"
+                class="focus:outline-none focus:ring-2 focus:ring-primary focus:ring-[#12F7D6] rounded-lg">
+                <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-64 lg:h-80 group"
                     style="background-image:url('/assets/img/bookeo/bookeo.webp')">
                     <div
                         class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/70 group-hover:opacity-100">
