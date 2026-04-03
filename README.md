@@ -24,7 +24,7 @@ Pour tester ce projet sur votre machine :
 
 1.  **Cloner le dépôt :**
     ```bash
-    git clone [https://github.com/Charlotte-Michallet/Portfolio.git](https://github.com/Charlotte-Michallet/Portfolio.git)
+    git clone https://github.com/Charlotte-Michallet/Portfolio.git
     ```
 2.  **Configurer le serveur :**
     - Utilisez un serveur local (WAMP, MAMP, ou le serveur intégré de PHP).
