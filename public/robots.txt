@@ -6,8 +6,7 @@ Disallow: /config/
 Disallow: /vendor/
 
 # Interdire l'indexation de la page technique du Cron-job
-Disallow: /health.php
 Disallow: /error.php
 
 # Indiquer le chemin du plan du site pour les robots
-Sitemap: https://portfolio-charlotte.onrender.com/sitemap.xml
+Sitemap: https://portfolio-charlotte.alwaysdata.net/sitemap.xml

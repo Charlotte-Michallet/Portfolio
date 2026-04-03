@@ -136,7 +136,7 @@
                     <div class="space-y-2">
                         <!-- Media -->
                         <div class="grow">
-                            <a href="https://cutt.ly/ecoride-covoiturage" target="_blank"
+                            <a href="https://ecoride-covoiturage-2025.alwaysdata.net/" target="_blank"
                                 class="flex flex-wrap gap-2 text-sm font-medium group-hover:text-primary-hover group-focus:text-primary-focus">
                                 <img class="size-5 rounded-lg block shrink-0" src="/assets/img/ecoride/form.webp"
                                     alt="logo">

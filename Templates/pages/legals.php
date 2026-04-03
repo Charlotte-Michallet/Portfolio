@@ -18,10 +18,9 @@
 
             <div class="rounded-lg border border-gray-200 px-6 pt-8 pb-4">
                 <h3 class="mt-1 pb-4 text-lg font-semibold">2. Hébergement</h3>
-                <p>Ce site web est hébergé par la société Render Services, Inc.<br>
-                    Siège social : 525 Brannan St, Suite 300, San Francisco, CA 94107, États-Unis.<br>
-                    Site web : <a href="https://render.com">https://render.com</a><br>
-                    Contact : support@render.com</p>
+                <p class="my-3">Ce site web est hébergé par : <a href="https://www.alwaysdata.com/fr/"
+                        target="_blank"><b>Alwaysdata</b></a>. Adresse postale : 91 Rue du Faubourg Saint-Honoré, 75008
+                    Paris. Téléphone : 01 84 16 23 40</p>
             </div>
 
             <div class="rounded-lg border border-gray-200 px-6 pt-8 pb-4">

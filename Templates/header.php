@@ -15,7 +15,7 @@
 
   <!-- link JavaScript -->
   <script type="module" src="/assets/javascript/index.js"></script>
-  <meta name="google-site-verification" content="TA-ezvPblFvPYXFPpXbok28XDnVemyj8BDGDCwhPe98" />
+  <meta name="google-site-verification" content="IRFPxzIJJVefi1qX3JoA77M3bfHl7TvADVeGSG5I0XE" />
 
   <title><?= htmlspecialchars($meta['title']) ?></title>
   <meta name="description" content="<?= htmlspecialchars($meta['description']) ?>">
@@ -25,7 +25,7 @@
   <meta property="og:title" content="<?= htmlspecialchars($meta['ogtitle']) ?>">
   <meta property="og:description" content="<?= htmlspecialchars($meta['ogdescription']) ?>">
   <meta property="og:image"
-    content="https://portfolio-charlotte.onrender.com/assets/img/og/<?= !empty($meta['image']) ? $meta['image'] : 'home.png' ?>">
+    content="https://portfolio-charlotte.alwaysdata.net/assets/img/og/<?= !empty($meta['image']) ? $meta['image'] : 'home.png' ?>">
 
 </head>
 
