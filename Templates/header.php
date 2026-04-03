@@ -15,6 +15,7 @@
 
   <!-- link JavaScript -->
   <script type="module" src="/assets/javascript/index.js"></script>
+  <meta name="google-site-verification" content="TA-ezvPblFvPYXFPpXbok28XDnVemyj8BDGDCwhPe98" />
 
   <title><?= htmlspecialchars($meta['title']) ?></title>
   <meta name="description" content="<?= htmlspecialchars($meta['description']) ?>">
