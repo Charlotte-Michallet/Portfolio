@@ -15,7 +15,10 @@
         </p>
 
         <p class=" md:mt-2">
-          Je cherche <strong>une alternance</strong> pour coder en <strong>PHP, JavaScript & SQL</strong>...
+          En route pour le Bachelor CDA ! 🚀 Dès septembre, je rejoins les équipes <strong>d'Infotel</strong> en
+          alternance pour mettre à
+          profit mes compétences en <strong> PHP, JavaScript & SQL</strong>, tout en ayant hâte d'apprendre de nouvelles
+          technos.
           Sérieuse sur le code, passionnée par l’UX, et toujours partante pour une réunion... surtout s'il y a des
           croissants. 🥐
         </p>

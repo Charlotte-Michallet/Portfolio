@@ -27,8 +27,8 @@
             Passionnée d’informatique et de jeux vidéo, j’ai forgé ma rigueur durant 6 ans dans l’horticulture et le
             commerce. Ce besoin de challenge m'a naturellement ramenée au code. <br><br>
             <b>Mon moteur ?</b> <br>
-            Résoudre des énigmes logiques et apprendre en continu. Je prépare aujourd'hui un Bachelor en alternance pour
-            transformer cette créativité technique en expertise durable.
+            Résoudre des énigmes logiques et apprendre en continu. Je rejoins à la rentrée un Bachelor en alternance
+            pour transformer cette créativité technique en expertise durable.
           </p>
 
 
@@ -71,7 +71,7 @@
 
           <ul class="list-disc ms-6 mt-3 space-y-1.5">
             <li class="ps-1">
-              En recherche active d'une alternance pour un Bachelor.
+              Développeuse en alternance chez Infotel.
             </li>
             <li class="ps-1">
               <b>Objectif :</b> Approfondir mes compétences en architecture logicielle et gestion de projet.
